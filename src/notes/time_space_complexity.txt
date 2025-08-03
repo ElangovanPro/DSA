@@ -1,0 +1,114 @@
+
+n=arr.length;
+Linear search..
+for(i=0;i<n;i++){
+if(a[i]===search){
+
+}
+}
+
+
+o(n**2)
+
+let n=5;
+let count=0;
+
+for(let i=0;i<n;i++){
+  for(let j=0;j<n;j++){
+    count++;
+}  
+console.log(count);
+}
+
+
+o(n log n)=== merge sort
+
+for(let i=0;i<n;i++) --n
+{
+
+ n, n/2,n/8, n/16..==> o(log n)
+
+}
+
+o(n**3)
+
+for(let i=0;i<2;i++){
+  for(let j=0;j<2;j++){
+      for(let k=0;k<2;k++){
+    count++;
+} 
+}  
+console.log(count);
+}
+
+
+space complexity
+
+[1,3,4,6,7];--length is 5.. arr[4]
+arr[4]-->7
+
+time compl=> o(1)
+space compl=> o(1).becuae there is no extra sapcing
+
+
+find max element in Array
+
+fun a(arr){
+let max=a[0];
+for(i=0;i<n;i++){
+    if(a[i]>max)
+    max=a[i];
+}
+}
+time- o(n)
+space- 0(1)
+
+double the value if an array
+[1,2,3,4,5]=> [2,4,6,8,10]
+(arr){
+    new array=[size(arr)];
+    for(i<n){
+        new array[i]=old array[i]*2;
+    }
+}
+time-o(n)
+space- o(n)
+
+
+
+2dimentionla array---o(n**2) both time and space
+[1,2,3,4,5
+ 2,4,6,8,10,
+ 4,8,12,16,20,,,   
+]
+
+for(i=0;i<n;i++){
+
+}--- o(n)
+for(i=0;i<n;i++){
+    
+}--- o(n)
+
+n+n ---2n---o(2n)
+n+n+n ---3n---o(3n)
+
+for ex:
+
+o(n**2)    vs o(3n)
+
+n=10, 100  vs 30 time
+n=100, 10000 vs 300 times
+n=1000, 1000000 vs 3000 times
+
+
+always take the greatest 
+
+o(3n)==> o(n)
+
+
+o(n**2 + n) = 100+10---> o(n**2)
+o(5n)==> o(n)
+
+o(n**3 + n + n**2)==>o(n**3) 
+
+similar for space complexity
